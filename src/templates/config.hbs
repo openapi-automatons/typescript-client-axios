@@ -1,0 +1,19 @@
+import { AxiosInstance } from "axios";
+
+export type Security = {
+{{#each securities}}
+	{{#and (eq type 'http') (eq scheme 'basic')}}
+	{{name}}: {username: string; password: string;} | Promise<{username: string; password: string;}> | (() => {username: string; password: string;} | Promise<{username: string; password: string;}>);
+	{{else or (eq type 'oauth2') (eq type 'openIdConnect')}}
+	{{name}}: string | Promise<string> | ((scopes?: string[]) => string | Promise<string>);
+	{{else}}
+	{{name}}: string | Promise<string> | (() => string | Promise<string>);
+	{{/and}}
+{{/each}}
+};
+
+export type Config = {
+  axios?: AxiosInstance;
+  token?: string | Promise<string> | (() => string | Promise<string>);
+	security?: Security;
+}

@@ -1,0 +1,19 @@
+import { AxiosResponse, AxiosRequestConfig } from "axios";
+import { AbstractApi, AbstractConfig } from "./abstractApi";
+import { Config, Security } from "../config";
+{{#with meta}}
+	{{#or hasTemplate hasQuery hasFormData ~}}
+		import { {{#if hasTemplate}}template{{#or hasQuery hasFormData}},{{/or}}{{/if}} {{#if hasQuery}}query{{#if hasFormData}},{{/if}}{{/if}} {{#if hasFormData}}formData{{/if}}  } from "../utils";
+	{{/or}}
+{{/with}}
+{{#each api/imports~}}
+  import { {{title}} } from "../models";
+{{/each}}
+
+{{#each api/servers}}
+type {{name}}Server = { name: "{{name}}"{{#if values}}; values: { {{#each values}}{{name}}: {{#if enums}}{{#each enums}}'{{this}}'{{#unless @last}} | {{/unless}}{{/each}}{{else}}string{{/if}} {{/each}} }; {{/if}} }
+{{/each}}
+
+{{> apis/class api }}
+
+{{> apis/config api }}
