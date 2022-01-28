@@ -1,6 +1,6 @@
 import {Openapi} from '@automatons/tools';
 import {remove} from "fs-extra";
-import {expectFormat} from "../../../test/expects/expectFormat";
+import {expectFormat} from "../expects/expectFormat";
 import {generate} from "../../generator";
 import paths from "../../paths";
 

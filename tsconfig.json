@@ -27,6 +27,7 @@
     "dist",
     "src/**/*.spec.ts",
     "src/**/*.test.ts",
-    "src/**/__mocks__/**/*"
+    "src/**/__mocks__/**/*",
+    "src/**/__tests__/**/*"
   ]
 }
