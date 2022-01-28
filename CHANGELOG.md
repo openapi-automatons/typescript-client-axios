@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.3...v1.0.4) (2022-01-28)
+
+
+### Bug Fixes
+
+* fit cookie type to header ([68da1c7](https://github.com/openapi-automatons/typescript-client-axios/commit/68da1c7696df64d60ec627077fab92e9eae2fb74))
+
 ## [1.0.3](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.2...v1.0.3) (2022-01-28)
 
 
