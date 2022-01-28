@@ -1,7 +1,9 @@
+type ParsedUrlQueryInput = NodeJS.Dict<string | number | boolean | ReadonlyArray<string> | ReadonlyArray<number> | ReadonlyArray<boolean> | null>
+
 const queryForm =
   (name: string,
    value: string | number | Array<string | number> | { [key: string]: string | number },
-   explode: boolean): {[key: string]: string} => {
+   explode: boolean): ParsedUrlQueryInput => {
     if (Array.isArray(value)) {
       if (explode) {
         return {[name]: value.map(String)}
@@ -21,7 +23,7 @@ const queryForm =
 
 const querySpaceDelimited =
   (name: string,
-   value: string | number | Array<string | number> | { [key: string]: string | number }): {[key: string]: string} => {
+   value: string | number | Array<string | number> | { [key: string]: string | number }): ParsedUrlQueryInput => {
     if (Array.isArray(value)) {
       return {[name]: value.join(' ')}
     } else if (value instanceof Object) {
@@ -32,7 +34,7 @@ const querySpaceDelimited =
 
 const queryPipeDelimited =
   (name: string,
-   value: string | number | Array<string | number> | { [key: string]: string | number }): {[key: string]: string} => {
+   value: string | number | Array<string | number> | { [key: string]: string | number }): ParsedUrlQueryInput => {
     if (Array.isArray(value)) {
       return {[name]: value.join('|')}
     } else if (value instanceof Object) {
@@ -43,7 +45,7 @@ const queryPipeDelimited =
 
 const queryDeepObject =
   (name: string,
-   value: string | number | Array<string | number> | { [key: string]: string | number }): {[key: string]: string} => {
+   value: string | number | Array<string | number> | { [key: string]: string | number }): ParsedUrlQueryInput => {
     if (!Array.isArray(value) && value instanceof Object) {
       return Object.keys(value).reduce((pre, cur) => ({...pre, [`${name}[${cur}]`]: value[cur]}), {});
     }
@@ -55,7 +57,7 @@ export const query =
     name: string,
     value: undefined | string | number | Array<string | number> | { [key: string]: string | number },
     style: 'form' | 'spaceDelimited' | 'pipeDelimited' | 'deepObject',
-    explode: boolean): {[key: string]: string} => {
+    explode: boolean): ParsedUrlQueryInput => {
     if (value === undefined) return {};
     switch (style) {
       case 'form':
