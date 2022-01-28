@@ -4,7 +4,7 @@ public async {{name}}({{> apis/config/arguments}}): Promise<AxiosRequestConfig> 
 	let _cookies = config?.headers?.Cookie ?? '';
 	{{> apis/config/request/cookies }}
 
-	const _headers = Object.assign({ ...config?.headers, 'Content-Type': headers['Content-Type']}, _cookies && {Cookie: _cookies });
+	const _headers = Object.assign({ ...config?.headers, 'Content-Type': headers['Content-Type']}, _cookies ? {Cookie: _cookies} : undefined);
 	{{> apis/config/request/headers }}
 
 	return {
