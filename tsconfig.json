@@ -6,6 +6,7 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
+    "sourceRoot": "src",
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,

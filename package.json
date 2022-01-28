@@ -13,7 +13,7 @@
   "main": "index.js",
   "scripts": {
     "prebuild": "depcheck && node scripts/prebuild.js",
-    "build": "tsc && cp -R package.json README.md LICENSE src/templates dist",
+    "build": "tsc && cp -R package.json README.md LICENSE src/templates dist && rsync -a src dist/src --exclude '__tests__' --exclude '*.test.*' --exclude '*.spec.*'",
     "lint": "eslint src --ext .ts,.tsx",
     "test": "jest",
     "postinstall": "husky install && typesync && yarn check --integrity || yarn install --ignore-scripts && yarn-deduplicate",
