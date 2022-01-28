@@ -3,17 +3,19 @@ import {remove} from "fs-extra";
 import {expectFormat} from "../expects/expectFormat";
 import {generate} from "../../generator";
 import paths from "../../paths";
+import { join } from 'path';
 
 jest.setTimeout(50000);
+const outDir = join(paths.tmp, 'security');
 
 it('should generate with security', async () => {
-  await generate(openapi, {path: '', openapiPath: '', outDir: paths.tmp});
+  await generate(openapi, {path: '', openapiPath: '', outDir});
 
   await expectFormat();
 });
 
 beforeEach(async () => {
-  await remove(paths.tmp);
+  await remove(outDir);
 });
 
 const openapi: Openapi = {

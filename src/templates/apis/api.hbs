@@ -14,6 +14,6 @@ import { Config{{#if securities}}, Security{{/if}} } from "../config";
 type {{name}}Server = { name: "{{name}}"{{#if values}}; values: { {{#each values}}{{name}}: {{#if enums}}{{#each enums}}'{{this}}'{{#unless @last}} | {{/unless}}{{/each}}{{else}}string{{/if}} {{/each}} }; {{/if}} }
 {{/each}}
 
-{{> apis/class api }}
+{{> apis/class api=api securities=securities }}
 
-{{> apis/config api=api securities=securities  }}
+{{> apis/config api=api securities=securities }}

@@ -22,6 +22,7 @@ const eslintrc = {
   extends: ["prettier"],
   rules: {
     'valid-jsdoc': ['warn'],
-    'require-jsdoc': ['warn']
+    'require-jsdoc': ['warn'],
+    'prefer-const': ['warn']
   }
 };

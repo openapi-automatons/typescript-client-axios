@@ -1,6 +1,6 @@
-{{> comment}}
-export class {{title}} extends AbstractApi {
-	readonly #config: {{title}}Config;
+{{> comment api}}
+export class {{api.title}} extends AbstractApi {
+	readonly #config: {{api.title}}Config;
 
   /**
    * constructor
@@ -8,9 +8,9 @@ export class {{title}} extends AbstractApi {
    */
 	constructor(config: Config = {}) {
 		super(config);
-		this.#config = new {{title}}Config(config.security);
+		this.#config = new {{api.title}}Config({{#if securities}}config.security{{/if}});
 	}
-	{{#each paths}}
+	{{#each api.paths}}
 
 	{{> apis/class/request }}
 	{{/each}}
