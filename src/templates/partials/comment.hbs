@@ -15,6 +15,9 @@
 {{#if defaultValue}}
  * @default {{defaultValue}}
 {{/if}}
+{{#each params}}
+	* @params { {{type}} } {{name}}
+{{/each}}
 {{#if example}}
  * @example
 {{/if}}

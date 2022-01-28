@@ -1,8 +1,7 @@
 import {Automaton} from "@automatons/tools";
 import {generate} from "./generator";
 
-
-const generatorTypescriptAxios: Automaton = (openapi, settings) =>
+const generatorTypescriptAxiosClient: Automaton = (openapi, settings) =>
   generate(openapi, settings);
 
-export default generatorTypescriptAxios;
+export default generatorTypescriptAxiosClient;

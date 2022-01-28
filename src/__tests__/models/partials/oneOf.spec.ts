@@ -6,7 +6,9 @@ import {OneOfSchema} from "@automatons/parser";
 import {setup} from "../../../generator/setup";
 
 describe('oneOf', () => {
-  beforeAll(() => setup());
+  beforeAll(async () => {
+    await setup();
+  });
 
   it.each<[OneOfSchema, string]>([
     [{type: 'oneOf', schemas: [{type: 'string'}]}, '(string)'],

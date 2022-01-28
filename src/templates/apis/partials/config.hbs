@@ -1,7 +1,9 @@
 class {{title}}Config extends AbstractConfig {
+	{{#if securities.length}}
 	constructor(security?: Security) {
 		super(security);
 	}
+	{{/if}}
 
 	{{> apis/config/server }}
 

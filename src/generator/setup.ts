@@ -11,6 +11,4 @@ HB.registerHelper('have', function <T extends Object>(value: T[], checkers: Arra
 });
 
 helpers({handlebars: HB});
-export const setup = () => {
-  return register();
-};
+export const setup = () => register();

@@ -22,7 +22,7 @@ describe('array', () => {
     [{type: 'string'}, 'Array<string>'],
     [{type: 'string', nullable: true}, 'Array<string | null>'],
     [{type: 'string', enum: ['one', 'two']}, 'Array<"one" | "two">'],
-    [{type: 'model', model: 'Test'}, 'Array<Test>']
+    [{type: 'model', name: 'Test'}, 'Array<Test>']
   ])('should be parse items. [%p -> %s]', async (schema: Schema | undefined, expected: string) => {
     const data = await readFile(path.resolve(paths.templates, 'models/partials/array.hbs'), {encoding: 'utf-8'});
     expect(compile(data)({type: 'array', items: schema})).toBe(expected);
