@@ -1,5 +1,10 @@
 type ParsedUrlQueryInput = NodeJS.Dict<string | number | boolean | ReadonlyArray<string> | ReadonlyArray<number> | ReadonlyArray<boolean> | null>
 
+const isObject = (value: any): value is object => {
+	const type = typeof value
+	return value != null && (type == 'object' || type == 'function')
+}
+
 const queryForm =
   (name: string,
    value: string | number | Array<string | number> | { [key: string]: string | number },
@@ -10,7 +15,7 @@ const queryForm =
       } else {
         return {[name]: value.join(',')}
       }
-    } else if (value instanceof Object) {
+    } else if (isObject(value)) {
       if (explode) {
         return value;
       } else {
@@ -26,7 +31,7 @@ const querySpaceDelimited =
    value: string | number | Array<string | number> | { [key: string]: string | number }): ParsedUrlQueryInput => {
     if (Array.isArray(value)) {
       return {[name]: value.join(' ')}
-    } else if (value instanceof Object) {
+    } else if (isObject(value)) {
       return {[name]: Object.entries(value).map((prop: [string, string | number]) => prop.join(' ')).join(' ')}
     }
     throw new Error(`Unsupported value: ${name}`);
@@ -37,7 +42,7 @@ const queryPipeDelimited =
    value: string | number | Array<string | number> | { [key: string]: string | number }): ParsedUrlQueryInput => {
     if (Array.isArray(value)) {
       return {[name]: value.join('|')}
-    } else if (value instanceof Object) {
+    } else if (isObject(value)) {
       return {[name]: Object.entries(value).map((prop: [string, string | number]) => prop.join('|')).join('|')}
     }
     throw new Error(`Unsupported value: ${name}`);
@@ -46,7 +51,7 @@ const queryPipeDelimited =
 const queryDeepObject =
   (name: string,
    value: string | number | Array<string | number> | { [key: string]: string | number }): ParsedUrlQueryInput => {
-    if (!Array.isArray(value) && value instanceof Object) {
+    if (!Array.isArray(value) && isObject(value)) {
       return Object.keys(value).reduce((pre, cur) => ({...pre, [`${name}[${cur}]`]: value[cur]}), {});
     }
     throw new Error(`Unsupported value: ${name}`);

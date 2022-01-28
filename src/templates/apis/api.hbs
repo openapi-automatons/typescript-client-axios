@@ -6,9 +6,7 @@ import { Config{{#if securities}}, Security{{/if}} } from "../config";
 		import { {{#if hasTemplate}}template{{#or hasQuery hasFormData}},{{/or}}{{/if}} {{#if hasQuery}}query{{#if hasFormData}},{{/if}}{{/if}} {{#if hasFormData}}formData{{/if}}  } from "../utils";
 	{{/or}}
 {{/with}}
-{{#each api/imports~}}
-  import { {{title}} } from "../models";
-{{/each}}
+import { {{#each api/imports~}} {{title}}{{#unless @last}}, {{/unless}}{{/each}} } from "../models";
 
 {{#each api/servers}}
 type {{name}}Server = { name: "{{name}}"{{#if values}}; values: { {{#each values}}{{name}}: {{#if enums}}{{#each enums}}'{{this}}'{{#unless @last}} | {{/unless}}{{/each}}{{else}}string{{/if}} {{/each}} }; {{/if}} }
