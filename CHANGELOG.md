@@ -1,3 +1,11 @@
+## [1.0.6](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.5...v1.0.6) (2022-01-28)
+
+
+### Bug Fixes
+
+* output type ([14b121d](https://github.com/openapi-automatons/typescript-client-axios/commit/14b121d27150a87c821e710fcd910ea16bdfe7e4))
+* remove unused library ([e1005fe](https://github.com/openapi-automatons/typescript-client-axios/commit/e1005fe81454ed29d6ea37c85e822d35192d0498))
+
 ## [1.0.5](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.4...v1.0.5) (2022-01-28)
 
 
