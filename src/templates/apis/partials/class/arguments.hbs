@@ -6,16 +6,16 @@
 {{/each}}
 }{{#if (every queries 'required' false)}} = {}{{/if}},
 {{/if}}
-headers: {
-	'Content-Type': {{#if forms}}{{#each forms}}{{#unless @first}} | {{/unless}}{{#each types}}{{#unless @first}} | {{/unless}}'{{this}}'{{/each}}{{/each}}{{else}}'application/json'{{/if}},
-	{{#each headers}}
-	{{name}}{{#unless required}}?{{/unless}}: {{> models/type schema}},
-	{{/each}}
-}{{#if (every headers 'required' false)}} = { 'Content-Type': 'application/json' }{{/if}},
 {{~#if cookies}}cookies: {
 {{~#each cookies}}
 	{{name}}{{#unless required}}?{{/unless}}: {{> models/type schema}},
 {{/each}}
 }{{#if (every cookies 'required' false)}} = {}{{/if}},
 {{/if}}
+headers: {
+'Content-Type': {{#if forms}}{{#each forms}}{{#unless @first}} | {{/unless}}{{#each types}}{{#unless @first}} | {{/unless}}'{{this}}'{{/each}}{{/each}}{{else}}'application/json'{{/if}},
+{{#each headers}}
+	{{name}}{{#unless required}}?{{/unless}}: {{> models/type schema}},
+{{/each}}
+}{{#if (every headers 'required' false)}} = { 'Content-Type': 'application/json' }{{/if}},
 {{~> apis/arguments/server servers}} config?: AxiosRequestConfig

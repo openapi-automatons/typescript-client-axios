@@ -6,9 +6,9 @@ export class {{title}} extends AbstractApi {
    * constructor
    * @param {Config} config
    */
-	constructor(config: Config) {
+	constructor(config: Config = {}) {
 		super(config);
-		this.#config = new {{title}}Config({{#if securities.length}}config.security{{/if}});
+		this.#config = new {{title}}Config(config.security);
 	}
 	{{#each paths}}
 

@@ -1,14 +1,14 @@
-class {{title}}Config extends AbstractConfig {
-	{{#if securities.length}}
-	constructor(security?: Security) {
+class {{api.title}}Config extends AbstractConfig {
+	{{#if securities}}
+	constructor(security: Security = {}) {
 		super(security);
 	}
 	{{/if}}
 
-	{{> apis/config/server }}
+	{{> apis/config/server api }}
 
-{{#each paths}}
+{{#each api.paths}}
 
-	{{> apis/config/request title=../title }}
+	{{> apis/config/request title=../api.title }}
 {{/each}}
 }

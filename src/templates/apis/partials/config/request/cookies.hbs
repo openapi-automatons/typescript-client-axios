@@ -1,10 +1,13 @@
 {{~#each cookies}}
 	if (cookies.{{name}}) {
-	_cookies['{{name}}'] =  query('{{name}}', cookies.{{name}}, 'form', {{#if explode}}true{{else}}false{{/if}});
+		_cookies += Object.entries(query('{{name}}', cookies.{{name}}, 'form', {{#if explode}}true{{else}}false{{/if}})).reduce((pre, [key, value]) => `${pre}${key}=${value};`, '');
 	}
 {{/each}}
 {{~#each securities}}
 	{{#and (eq type 'apiKey') (eq in 'cookie')~}}
-		_cookies['{{key}}'] = await this.security("{{name}}");
+		const _cookie{{name}} = await this.security("{{name}}");
+		if (_cookie{{name}}) {
+			_cookies += `{{key}}=${_cookie{{name~}} };`;
+		}
 	{{/and}}
 {{/each}}

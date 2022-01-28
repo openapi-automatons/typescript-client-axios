@@ -25,7 +25,8 @@ export const generate = async (openapi: Openapi, settings: AutomatonSettings) =>
     );
     promises.push(...apis.map(api => write('apis/api.hbs', [outDir, 'apis', `${api.filename}.ts`], {
       api,
-      meta: extractApiMeta(api)
+      meta: extractApiMeta(api),
+      securities
     })));
   }
 
