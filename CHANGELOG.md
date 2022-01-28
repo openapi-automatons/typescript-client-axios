@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.6...v1.0.7) (2022-01-28)
+
+
+### Bug Fixes
+
+* bad judged for object logic ([8f3ce71](https://github.com/openapi-automatons/typescript-client-axios/commit/8f3ce7118cac362e74bec3be966f12b53bd8b3e1))
+
 ## [1.0.6](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.5...v1.0.6) (2022-01-28)
 
 
