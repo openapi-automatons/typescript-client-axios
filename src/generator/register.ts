@@ -1,7 +1,9 @@
 import {readFile} from "fs-extra";
 import {glob} from 'glob';
-import {registerPartial} from "handlebars";
+import Handlebars, {registerPartial} from "handlebars";
 import paths from "../paths";
+
+const partial = registerPartial.bind(Handlebars);
 
 const convertName = (match: string) =>
   match.replace(`${paths.templates}/`, '')
@@ -17,5 +19,5 @@ export const register = () =>
       ({name: convertName(match), path: match})))
     .then(files => Promise.all(
       files.map(({name, path}) => readFile(path, {encoding: 'utf-8'})
-        .then(data => registerPartial(name, data))))
+        .then(data => partial(name, data))))
     );
