@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.7...v1.0.8) (2022-01-28)
+
+
+### Bug Fixes
+
+* sourcemap ([b0d09e6](https://github.com/openapi-automatons/typescript-client-axios/commit/b0d09e6c48b36c70cfedbed74db2f2090c370272))
+
 ## [1.0.7](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.6...v1.0.7) (2022-01-28)
 
 
