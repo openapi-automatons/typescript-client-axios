@@ -1,12 +1,9 @@
 module.exports = {
   clearMocks: true,
-  displayName: 'unit',
+  displayName: 'integration',
   collectCoverageFrom: [
-    'src/**/*.(js|ts)',
-    '!src/**/*.d.ts'
-  ],
-  roots: [
-    "<rootDir>/src"
+    '**/*.(js|ts)',
+    '!**/*.d.ts'
   ],
   testMatch: [
     "**/?(*.)+(spec|test).+(ts|js)",
