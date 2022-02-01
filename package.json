@@ -20,7 +20,7 @@
     "postversion": "cp package.json ../package.json"
   },
   "dependencies": {
-    "@automatons/parser": "^0.0.64",
+    "@automatons/parser": "^0.0.65",
     "@automatons/tools": "^1.0.8",
     "eslint": "^8.7.0",
     "fs-extra": "^9.0.0",
@@ -47,7 +47,7 @@
     "@types/handlebars-helpers": "^0.5.2",
     "@types/jest": "^27.4.0",
     "@types/js-yaml": "^4.0.5",
-    "@types/node": "^17.0.13",
+    "@types/node": "^17.0.14",
     "@types/prettier": "^2.0.0",
     "@types/semantic-release": "^17.2.3",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
