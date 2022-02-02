@@ -60,7 +60,7 @@
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.4",
     "jest": "^26.0.1",
-    "lint-staged": "^12.3.2",
+    "lint-staged": "^12.3.3",
     "object-to-formdata": "^4.4.1",
     "semantic-release": "^19.0.2",
     "ts-jest": "^26.0.0",
