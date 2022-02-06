@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.14...v1.0.15) (2022-02-06)
+
+
+### Bug Fixes
+
+* server parameter ([6921dd3](https://github.com/openapi-automatons/typescript-client-axios/commit/6921dd3f9ee5beabf283bb7f62bab09190d349e6))
+
 ## [1.0.14](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.13...v1.0.14) (2022-02-04)
 
 
