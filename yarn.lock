@@ -2,17 +2,17 @@
 # yarn lockfile v1
 
 
-"@automatons/parser@^0.0.71":
-  version "0.0.71"
-  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-0.0.71.tgz#1d3469fd5cfdc9753be4930606438a552a78d0dd"
-  integrity sha512-jw1sOOxgrQiEcDmSUQM1V/5jFpTeu1xU9sXPDV8oEd6OXItRJ9MvCY+i3TvCDkI18C/aFd4sVDf+cjiFw2UkJQ==
+"@automatons/parser@^0.0.72":
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-0.0.72.tgz#4aab24d30810e6c4aed07e95d9b03ff070c304b9"
+  integrity sha512-Q9YQ5kigKKgLNgsyugpwHmW9knOBNV6TjF2TA9f4M7Q7td6eJycjmk4c/sL03eqygwwNTBLuN+rM86KHgrTp7Q==
   dependencies:
-    "@automatons/tools" "^1.0.68"
+    "@automatons/tools" "^1.0.70"
     change-case "^4.1.1"
     deep-equal "^2.0.3"
     fs-extra "^10.0.0"
 
-"@automatons/tools@^1.0.67", "@automatons/tools@^1.0.68":
+"@automatons/tools@^1.0.67", "@automatons/tools@^1.0.70":
   version "1.0.70"
   resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.70.tgz#dcd8118b1f006084f2c6a27843ea28a896854f7c"
   integrity sha512-ZclQGJuGYcQTm4BR2ru81X/smT1pmPAHSmZIhLD9DoReqFVfaBwYE0VJjgc2GzSNi+u+WgEiwZ7U2p5pi3QFNQ==
