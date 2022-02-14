@@ -21,7 +21,7 @@
     "postversion": "cp package.json ../package.json"
   },
   "dependencies": {
-    "@automatons/parser": "^0.0.73",
+    "@automatons/parser": "^0.0.74",
     "@automatons/tools": "^1.0.67",
     "eslint": "^8.7.0",
     "fs-extra": "^9.0.0",
@@ -36,7 +36,7 @@
     "openapi-automatons": "^1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.1.0",
+    "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
