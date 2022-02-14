@@ -1,3 +1,10 @@
+## [1.0.25](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.24...v1.0.25) (2022-02-14)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump object-to-formdata from 4.4.1 to 4.4.2 ([#33](https://github.com/openapi-automatons/typescript-client-axios/issues/33)) ([f8faf64](https://github.com/openapi-automatons/typescript-client-axios/commit/f8faf64fe9122fb2745cbfe7fa3a71dc5c896516))
+
 ## [1.0.24](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.23...v1.0.24) (2022-02-14)
 
 
