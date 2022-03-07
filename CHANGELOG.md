@@ -1,3 +1,11 @@
+## [1.0.40](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.39...v1.0.40) (2022-03-07)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump lint-staged from 12.3.4 to 12.3.5 ([#59](https://github.com/openapi-automatons/typescript-client-axios/issues/59)) ([17020b3](https://github.com/openapi-automatons/typescript-client-axios/commit/17020b37567c6404eebe0ffcb621105e1785bdc0))
+* **deps-dev:** bump ts-node from 10.6.0 to 10.7.0 ([#60](https://github.com/openapi-automatons/typescript-client-axios/issues/60)) ([725a983](https://github.com/openapi-automatons/typescript-client-axios/commit/725a9830c22c88d4f1ee7453d5a9feb82feab2ec))
+
 ## [1.0.39](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.38...v1.0.39) (2022-03-03)
 
 
