@@ -52,7 +52,7 @@
     "@types/prettier": "^2.4.4",
     "@types/semantic-release": "^17.2.3",
     "@typescript-eslint/eslint-plugin": "^5.15.0",
-    "@typescript-eslint/parser": "^5.14.0",
+    "@typescript-eslint/parser": "^5.15.0",
     "axios-mock-adapter": "^1.20.0",
     "depcheck": "^1.4.3",
     "eslint": "^8.7.0",
