@@ -2,20 +2,20 @@
 # yarn lockfile v1
 
 
-"@automatons/parser@^0.0.93":
-  version "0.0.93"
-  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-0.0.93.tgz#2cd1f160f3993687acd85196b2a8561c452d4125"
-  integrity sha512-eRcHuToR4der1vUmYsr4/FLMq5cOyb4qxusMsNriFMelu5jt0eDF9kTW/FEut4g1vui911eJbL9ZiLx3sXKR1A==
+"@automatons/parser@^0.0.94":
+  version "0.0.94"
+  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-0.0.94.tgz#94d6279e9ad3806c868c474a716dfdab4221e7c3"
+  integrity sha512-PKpJRTOTRevkoOuToJKBa7sRFdi3Y3dB2S3Eez1HZBP2rkNrrMMXpSNRbidCwSN2022pYXO5Te6x1j0DUThz4w==
   dependencies:
-    "@automatons/tools" "^1.0.87"
+    "@automatons/tools" "^1.0.88"
     change-case "^4.1.1"
     deep-equal "^2.0.3"
     fs-extra "^10.0.0"
 
-"@automatons/tools@^1.0.67", "@automatons/tools@^1.0.87":
-  version "1.0.87"
-  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.87.tgz#c10a5053135412707f9fd46072188100da678792"
-  integrity sha512-dZU+qBKKy9sALF4vGX3DCLWk1vmEfgZfegWl33/hH4zInBNwX0yla7+xBB13BsxBxBehemFrY5lwaOke9mY17Q==
+"@automatons/tools@^1.0.67", "@automatons/tools@^1.0.88":
+  version "1.0.90"
+  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.90.tgz#a8a0452a8d848143e27643a2eadc75eefaf96558"
+  integrity sha512-uZM5BjgQczSe0CmYITZ3s2W7FEKio/l+nO0ZcvNA7vvR+i6uS+DTEAnVW+A2150eZKSX8aArjtZ6RJLjNk9Dcw==
   dependencies:
     fs-extra "^10.0.1"
     js-yaml "^4.1.0"
@@ -5448,10 +5448,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-lint-staged@^12.3.5:
-  version "12.3.5"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.3.5.tgz#8048ce048c3cac12f57200a06344a54dc91c8fa9"
-  integrity sha512-oOH36RUs1It7b9U/C7Nl/a0sLfoIBcMB8ramiB3nuJ6brBqzsWiUAFSR5DQ3yyP/OR7XKMpijtgKl2DV1lQ3lA==
+lint-staged@^12.3.6:
+  version "12.3.6"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.3.6.tgz#7b999ebe041c07f241537a17c49969027b4d26f0"
+  integrity sha512-tVNyl/HsAnplKh4oaoRNzyZLm0PE/6VaBUXvd/gA9zhYCC/+ivZwiwpoT6jOxcLzuIOjP19wW+mfOi7/Bw4c1A==
   dependencies:
     cli-truncate "^3.1.0"
     colorette "^2.0.16"
@@ -5463,6 +5463,7 @@ lint-staged@^12.3.5:
     micromatch "^4.0.4"
     normalize-path "^3.0.0"
     object-inspect "^1.12.0"
+    pidtree "^0.5.0"
     string-argv "^0.3.1"
     supports-color "^9.2.1"
     yaml "^1.10.2"
@@ -6675,6 +6676,11 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
+
+pidtree@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/pidtree/-/pidtree-0.5.0.tgz#ad5fbc1de78b8a5f99d6fbdd4f6e4eee21d1aca1"
+  integrity sha512-9nxspIM7OpZuhBxPg73Zvyq7j1QMPMPsGKTqRc2XOaFQauDvoNz9fM1Wdkjmeo7l9GXOZiRs97sPkuayl39wjA==
 
 pify@^3.0.0:
   version "3.0.0"
