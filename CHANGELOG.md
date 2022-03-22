@@ -1,3 +1,10 @@
+## [1.0.54](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.53...v1.0.54) (2022-03-22)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump yarn-deduplicate from 3.1.0 to 4.0.0 ([#86](https://github.com/openapi-automatons/typescript-client-axios/issues/86)) ([66cd238](https://github.com/openapi-automatons/typescript-client-axios/commit/66cd2382ee98860bb7b702a8f70c183c02d0c24e))
+
 ## [1.0.53](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.52...v1.0.53) (2022-03-22)
 
 
