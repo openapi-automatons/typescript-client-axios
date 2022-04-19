@@ -12,12 +12,12 @@
     deep-equal "^2.0.3"
     fs-extra "^10.0.0"
 
-"@automatons/tools@^1.0.103":
-  version "1.0.103"
-  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.103.tgz#64d7fd409c37ec3fbd05fb87287aa18d9b9eac3f"
-  integrity sha512-YQuhMLxVVsBrEXKKaktcGnBHjDze/YY/NZj376ru0n7hGULWv4ILSQsu/VX9thj6GhuORmElpFxBOAZd69YWUA==
+"@automatons/tools@^1.0.103", "@automatons/tools@^1.0.104":
+  version "1.0.104"
+  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.104.tgz#3420a2e78bec0264be33c2069e134e10e5bf92fb"
+  integrity sha512-N2vF/lU4hF+3g/Uv2vEWbcp3QGLfsLvQYbCi6i1tkPmxvFIjiWtYrMYGoiFmw473j/6t3raSbabxxDRz/SlxmA==
   dependencies:
-    fs-extra "^10.0.1"
+    fs-extra "^10.1.0"
     js-yaml "^4.1.0"
     node-fetch "^2.6.0"
 
@@ -3633,7 +3633,7 @@ fs-exists-sync@^0.1.0:
   resolved "https://registry.yarnpkg.com/fs-exists-sync/-/fs-exists-sync-0.1.0.tgz#982d6893af918e72d08dec9e8673ff2b5a8d6add"
   integrity sha1-mC1ok6+RjnLQjeyehnP/K1qNat0=
 
-fs-extra@^10.0.0, fs-extra@^10.0.1, fs-extra@^10.1.0:
+fs-extra@^10.0.0, fs-extra@^10.1.0:
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.1.0.tgz#02873cfbc4084dde127eaa5f9905eef2325d1abf"
   integrity sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==
