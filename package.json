@@ -21,7 +21,7 @@
     "postversion": "cp package.json ../package.json"
   },
   "dependencies": {
-    "@automatons/parser": "^0.0.115",
+    "@automatons/parser": "^0.0.116",
     "@automatons/tools": "^1.0.105",
     "eslint": "^8.14.0",
     "fs-extra": "^10.1.0",
@@ -52,7 +52,7 @@
     "@types/prettier": "^2.6.0",
     "@types/semantic-release": "^17.2.3",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
-    "@typescript-eslint/parser": "^5.20.0",
+    "@typescript-eslint/parser": "^5.21.0",
     "axios-mock-adapter": "^1.20.0",
     "depcheck": "^1.4.3",
     "eslint": "^8.14.0",
