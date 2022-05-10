@@ -58,7 +58,7 @@
     "eslint": "^8.15.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.5.0",
-    "husky": "^8.0.0",
+    "husky": "^8.0.1",
     "jest": "^26.0.1",
     "lint-staged": "^12.4.1",
     "object-to-formdata": "^4.4.2",
