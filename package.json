@@ -64,7 +64,7 @@
     "object-to-formdata": "^4.4.2",
     "semantic-release": "^19.0.2",
     "ts-jest": "^26.0.0",
-    "ts-node": "^10.7.0",
+    "ts-node": "^10.8.0",
     "typescript": "^4.6.4",
     "typesync": "^0.9.1",
     "yarn-deduplicate": "^5.0.0"
