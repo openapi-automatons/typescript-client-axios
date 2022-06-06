@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@automatons/parser": "^0.0.116",
-    "@automatons/tools": "^1.0.105",
+    "@automatons/tools": "^1.0.106",
     "eslint": "^8.16.0",
     "fs-extra": "^10.1.0",
     "glob": "^8.0.3",
@@ -64,7 +64,7 @@
     "object-to-formdata": "^4.4.2",
     "semantic-release": "^19.0.2",
     "ts-jest": "^26.0.0",
-    "ts-node": "^10.8.0",
+    "ts-node": "^10.8.1",
     "typescript": "^4.7.2",
     "typesync": "^0.9.1",
     "yarn-deduplicate": "^5.0.0"
