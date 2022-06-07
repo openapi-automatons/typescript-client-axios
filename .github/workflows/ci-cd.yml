@@ -98,7 +98,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Install modules
         run: yarn install --frozen-lockfile
-        if: steps.cache.outputs.cache-hit != 'true'
       - name: Build
         run: yarn build
       - name: Publish
