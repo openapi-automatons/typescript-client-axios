@@ -1,3 +1,10 @@
+## [1.0.85](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.84...v1.0.85) (2022-06-07)
+
+
+### Bug Fixes
+
+* every function ([ff0e23e](https://github.com/openapi-automatons/typescript-client-axios/commit/ff0e23ee9f2941c98fe9dfd183c9cdbd7e27bed5))
+
 ## [1.0.84](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.83...v1.0.84) (2022-06-07)
 
 
