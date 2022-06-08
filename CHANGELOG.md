@@ -1,3 +1,11 @@
+## [1.0.86](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.85...v1.0.86) (2022-06-08)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @types/node from 17.0.40 to 17.0.41 ([#194](https://github.com/openapi-automatons/typescript-client-axios/issues/194)) ([5e8dda5](https://github.com/openapi-automatons/typescript-client-axios/commit/5e8dda5dbd199913c44fc1ddb8098793b1cb4e03))
+* **deps:** bump @automatons/parser from 0.0.116 to 0.0.117 ([#193](https://github.com/openapi-automatons/typescript-client-axios/issues/193)) ([ac36d81](https://github.com/openapi-automatons/typescript-client-axios/commit/ac36d81383e30bd6badda02db112102327c63cd6))
+
 ## [1.0.85](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.84...v1.0.85) (2022-06-07)
 
 
