@@ -21,7 +21,7 @@
     "postversion": "cp package.json ../package.json"
   },
   "dependencies": {
-    "@automatons/parser": "^0.0.117",
+    "@automatons/parser": "^0.0.118",
     "@automatons/tools": "^1.0.108",
     "eslint": "^8.17.0",
     "fs-extra": "^10.1.0",
@@ -60,7 +60,7 @@
     "eslint-config-prettier": "^8.5.0",
     "husky": "^8.0.1",
     "jest": "^26.0.1",
-    "lint-staged": "^13.0.0",
+    "lint-staged": "^13.0.1",
     "object-to-formdata": "^4.4.2",
     "semantic-release": "^19.0.3",
     "ts-jest": "^26.0.0",
