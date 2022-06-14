@@ -22,13 +22,13 @@
   },
   "dependencies": {
     "@automatons/parser": "^0.0.121",
-    "@automatons/tools": "^1.0.110",
+    "@automatons/tools": "^1.0.112",
     "eslint": "^8.17.0",
     "fs-extra": "^10.1.0",
     "glob": "^8.0.3",
     "handlebars": "^4.7.6",
     "handlebars-helpers": "^0.10.0",
-    "prettier": "^2.6.2"
+    "prettier": "^2.7.0"
   },
   "peerDependencies": {
     "axios": "^0",

@@ -12,10 +12,10 @@
     deep-equal "^2.0.3"
     fs-extra "^10.0.0"
 
-"@automatons/tools@^1.0.110":
-  version "1.0.110"
-  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.110.tgz#323246698aa7643912c8b42929c56b2b78d34ce9"
-  integrity sha512-1l39aixsRTd5mVVVIFpbpqpfJTgUFsAfwyz6FaPEKhXoaWVPiGJ4aLt2wib3DNnoO0PVC2XVvI4x8K6yZIwZBA==
+"@automatons/tools@^1.0.110", "@automatons/tools@^1.0.112":
+  version "1.0.112"
+  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.112.tgz#c9b8d78f76e2de143092e8028664cbe52615ceef"
+  integrity sha512-djMogVdcEBtFyd0opT+hBrzQgVJrkb6loDiz05RFf1uJa26PyRWML1Bqkax263KPBONoXQmMxGR1LN2v1v8S5Q==
   dependencies:
     fs-extra "^10.1.0"
     got "^11.8.5"
@@ -6968,10 +6968,10 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier@^2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.2.tgz#e26d71a18a74c3d0f0597f55f01fb6c06c206032"
-  integrity sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==
+prettier@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.0.tgz#a4fdae07e5596c51c9857ea676cd41a0163879d6"
+  integrity sha512-nwoX4GMFgxoPC6diHvSwmK/4yU8FFH3V8XWtLQrbj4IBsK2pkYhG4kf/ljF/haaZ/aii+wNJqISrCDPgxGWDVQ==
 
 pretty-format@^26.6.2:
   version "26.6.2"
