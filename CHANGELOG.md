@@ -1,3 +1,10 @@
+## [1.0.101](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.100...v1.0.101) (2022-06-28)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @typescript-eslint/parser from 5.29.0 to 5.30.0 ([#229](https://github.com/openapi-automatons/typescript-client-axios/issues/229)) ([800f677](https://github.com/openapi-automatons/typescript-client-axios/commit/800f677e6de4a275ac33b6ec864d7795b5a3eae2))
+
 ## [1.0.100](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.99...v1.0.100) (2022-06-28)
 
 
