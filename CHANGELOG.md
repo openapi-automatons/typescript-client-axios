@@ -1,3 +1,10 @@
+## [1.0.123](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.122...v1.0.123) (2022-07-21)
+
+
+### Bug Fixes
+
+* **deps:** bump @automatons/tools from 1.0.130 to 1.0.131 ([#270](https://github.com/openapi-automatons/typescript-client-axios/issues/270)) ([b3a837c](https://github.com/openapi-automatons/typescript-client-axios/commit/b3a837c22d986e2279d52a07d62e47651d1c16ad))
+
 ## [1.0.122](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.121...v1.0.122) (2022-07-21)
 
 
