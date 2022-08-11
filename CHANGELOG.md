@@ -1,3 +1,10 @@
+## [1.0.141](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.140...v1.0.141) (2022-08-11)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump axios-mock-adapter from 1.21.1 to 1.21.2 ([#302](https://github.com/openapi-automatons/typescript-client-axios/issues/302)) ([aeac20f](https://github.com/openapi-automatons/typescript-client-axios/commit/aeac20fa68f71238aac8848f96dc66ce90349531))
+
 ## [1.0.140](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.139...v1.0.140) (2022-08-11)
 
 
