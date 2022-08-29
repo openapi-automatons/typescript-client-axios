@@ -1,3 +1,10 @@
+## [1.0.157](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.156...v1.0.157) (2022-08-29)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @commitlint/cli from 17.0.3 to 17.1.2 ([#338](https://github.com/openapi-automatons/typescript-client-axios/issues/338)) ([15bcc18](https://github.com/openapi-automatons/typescript-client-axios/commit/15bcc187664ffdb463cfe3f48e0a812c8c0df18f))
+
 ## [1.0.156](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.155...v1.0.156) (2022-08-29)
 
 
