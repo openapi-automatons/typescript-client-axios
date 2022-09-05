@@ -1,6 +1,6 @@
 {
   "name": "@automatons/typescript-client-axios",
-  "version": "1.0.160",
+  "version": "1.0.161",
   "repository": "git@github.com:openapi-automatons/typescript-client-axios.git",
   "author": "tanmen <yt.prog@gmail.com>",
   "license": "MIT",
@@ -21,7 +21,7 @@
     "postversion": "cp package.json ../package.json"
   },
   "dependencies": {
-    "@automatons/parser": "^0.0.175",
+    "@automatons/parser": "^0.0.176",
     "@automatons/tools": "^1.0.151",
     "eslint": "^8.18.0",
     "fs-extra": "^10.1.0",
@@ -48,7 +48,7 @@
     "@types/handlebars-helpers": "^0.5.2",
     "@types/jest": "^27.5.0",
     "@types/js-yaml": "^4.0.5",
-    "@types/node": "^18.7.14",
+    "@types/node": "^18.7.15",
     "@types/prettier": "^2.7.0",
     "@types/semantic-release": "^17.2.4",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
