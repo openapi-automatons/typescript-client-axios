@@ -1,6 +1,6 @@
 {
   "name": "@automatons/typescript-client-axios",
-  "version": "1.0.181",
+  "version": "1.0.182",
   "repository": "git@github.com:openapi-automatons/typescript-client-axios.git",
   "author": "tanmen <yt.prog@gmail.com>",
   "license": "MIT",
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@automatons/parser": "^0.0.193",
-    "@automatons/tools": "^1.0.163",
+    "@automatons/tools": "^1.0.164",
     "eslint": "^8.18.0",
     "fs-extra": "^10.1.0",
     "glob": "^8.0.3",
