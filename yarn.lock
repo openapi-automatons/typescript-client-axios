@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@automatons/parser@^0.0.200":
-  version "0.0.200"
-  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-0.0.200.tgz#4c32ab484144b01887479e77bcebc82fdbc24712"
-  integrity sha512-ayRCq2S77VCgdcLeUn4XgeoT3G9Z4OdeameDll6vjfoDKDBQPuix+wMeHt0Rvli8D880xOyqMtwPDGH+Qp6dOQ==
+"@automatons/parser@^0.0.201":
+  version "0.0.201"
+  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-0.0.201.tgz#0230b863db368d9a8b95bb8a06636b321223de1b"
+  integrity sha512-ihG6UzMWOB1JhaP6wtQOwsUPf4WCj63ZgLsUolCvq2VC79oekcYXpznzgtW8MrqBTdll2mNr9JPQOPyhfpH49A==
   dependencies:
     "@automatons/tools" "^1.0.167"
     change-case "^4.1.1"
