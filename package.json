@@ -21,7 +21,7 @@
     "postversion": "cp package.json ../package.json"
   },
   "dependencies": {
-    "@automatons/parser": "^0.0.218",
+    "@automatons/parser": "^0.0.219",
     "@automatons/tools": "^1.0.180",
     "eslint": "^8.26.0",
     "fs-extra": "^10.1.0",
