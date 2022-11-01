@@ -1,3 +1,10 @@
+## [1.0.206](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.205...v1.0.206) (2022-11-01)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @commitlint/config-conventional ([#435](https://github.com/openapi-automatons/typescript-client-axios/issues/435)) ([7439a69](https://github.com/openapi-automatons/typescript-client-axios/commit/7439a699e72e77907f33dfd20d9f79159b946b6c))
+
 ## [1.0.205](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.204...v1.0.205) (2022-11-01)
 
 
