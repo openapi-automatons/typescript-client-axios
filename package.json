@@ -24,7 +24,7 @@
     "@automatons/parser": "^0.0.234",
     "@automatons/tools": "^1.0.193",
     "eslint": "^8.28.0",
-    "fs-extra": "^10.1.0",
+    "fs-extra": "^11.0.0",
     "glob": "^8.0.3",
     "handlebars": "^4.7.6",
     "handlebars-helpers": "^0.10.0",
