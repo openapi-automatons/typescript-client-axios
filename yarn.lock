@@ -12,10 +12,10 @@
     deep-equal "^2.1.0"
     fs-extra "^10.0.0"
 
-"@automatons/tools@^1.0.200", "@automatons/tools@^1.0.201":
-  version "1.0.202"
-  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.202.tgz#8e3baf95db4dd4893f1f4d08fabfef4be0d39837"
-  integrity sha512-U/qBr1uzoWeV1UiMJ2cK98sqti3ZLxuSDmQUIlSk2QUx+s0RF44vQfH7slwup47Es1DwDFLVK5zJ/kDqa2csvA==
+"@automatons/tools@^1.0.201", "@automatons/tools@^1.0.203":
+  version "1.0.203"
+  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-1.0.203.tgz#2f62a786cdf7942158aaea44a5ead21ba0ca4716"
+  integrity sha512-qbYf1T6wRmA9qj0zsXb0PEvpaeKzFmccAsxcF8gVfaWa+As6lytFfZG1YFpVzoWNs68Mom6dWeVkVg/X4zuolA==
   dependencies:
     fs-extra "^10.1.0"
     got "^11.8.5"
