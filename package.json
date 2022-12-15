@@ -1,6 +1,6 @@
 {
   "name": "@automatons/typescript-client-axios",
-  "version": "1.0.240",
+  "version": "1.0.241",
   "repository": "git@github.com:openapi-automatons/typescript-client-axios.git",
   "author": "tanmen <yt.prog@gmail.com>",
   "license": "MIT",
