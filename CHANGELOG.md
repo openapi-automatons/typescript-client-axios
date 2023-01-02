@@ -1,3 +1,10 @@
+## [1.0.251](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.250...v1.0.251) (2023-01-02)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint from 8.30.0 to 8.31.0 ([#517](https://github.com/openapi-automatons/typescript-client-axios/issues/517)) ([6167a12](https://github.com/openapi-automatons/typescript-client-axios/commit/6167a12924ed7a4d1ea08476812bf49d7b147a9e))
+
 ## [1.0.250](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.249...v1.0.250) (2022-12-29)
 
 
