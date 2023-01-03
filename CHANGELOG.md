@@ -1,3 +1,10 @@
+## [1.0.253](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.252...v1.0.253) (2023-01-03)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump husky from 8.0.2 to 8.0.3 ([#520](https://github.com/openapi-automatons/typescript-client-axios/issues/520)) ([2d42ed6](https://github.com/openapi-automatons/typescript-client-axios/commit/2d42ed6bbc5e6e0615778cf8f2a05bbd4b714595))
+
 ## [1.0.252](https://github.com/openapi-automatons/typescript-client-axios/compare/v1.0.251...v1.0.252) (2023-01-03)
 
 
