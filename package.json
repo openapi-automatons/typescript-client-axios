@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@automatons/parser": "^0.0.254",
-    "@automatons/tools": "^1.0.212",
+    "@automatons/tools": "^1.0.213",
     "eslint": "^8.31.0",
     "fs-extra": "^10.1.0",
     "glob": "^8.0.3",
