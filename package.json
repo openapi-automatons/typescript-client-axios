@@ -28,7 +28,7 @@
     "glob": "^8.0.3",
     "handlebars": "^4.7.6",
     "handlebars-helpers": "^0.10.0",
-    "prettier": "^2.8.1"
+    "prettier": "^2.8.2"
   },
   "peerDependencies": {
     "axios": "^0",
