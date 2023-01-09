@@ -21,14 +21,14 @@
     "postversion": "cp package.json ../package.json"
   },
   "dependencies": {
-    "@automatons/parser": "^0.0.261",
+    "@automatons/parser": "^0.0.262",
     "@automatons/tools": "^1.0.217",
     "eslint": "^8.31.0",
     "fs-extra": "^10.1.0",
     "glob": "^8.0.3",
     "handlebars": "^4.7.6",
     "handlebars-helpers": "^0.10.0",
-    "prettier": "^2.8.1"
+    "prettier": "^2.8.2"
   },
   "peerDependencies": {
     "axios": "^0",
