@@ -36,7 +36,7 @@
     "openapi-automatons": "^1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.0",
+    "@commitlint/cli": "^17.4.1",
     "@commitlint/config-conventional": "^17.4.0",
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1",
@@ -52,7 +52,7 @@
     "@types/prettier": "^2.7.2",
     "@types/semantic-release": "^17.2.4",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
-    "@typescript-eslint/parser": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.1",
     "axios-mock-adapter": "^1.21.2",
     "depcheck": "^1.4.3",
     "eslint": "^8.31.0",
