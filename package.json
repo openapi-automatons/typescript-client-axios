@@ -23,7 +23,7 @@
   "dependencies": {
     "@automatons/parser": "^0.0.263",
     "@automatons/tools": "^1.0.218",
-    "eslint": "^8.31.0",
+    "eslint": "^8.32.0",
     "fs-extra": "^10.1.0",
     "glob": "^8.0.3",
     "handlebars": "^4.7.6",
@@ -55,7 +55,7 @@
     "@typescript-eslint/parser": "^5.48.1",
     "axios-mock-adapter": "^1.21.2",
     "depcheck": "^1.4.3",
-    "eslint": "^8.31.0",
+    "eslint": "^8.32.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.6.0",
     "husky": "^8.0.3",
