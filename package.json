@@ -43,7 +43,7 @@
     "@semantic-release/npm": "^9.0.2",
     "@types/eslint": "^8.4.10",
     "@types/fs-extra": "^9.0.13",
-    "@types/glob": "^8.0.0",
+    "@types/glob": "^8.0.1",
     "@types/handlebars": "^4.1.0",
     "@types/handlebars-helpers": "^0.5.2",
     "@types/jest": "^27.5.0",
