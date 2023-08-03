@@ -28,7 +28,7 @@
     "glob": "^10.3.3",
     "handlebars": "^4.7.8",
     "handlebars-helpers": "^0.10.0",
-    "prettier": "^3.0.0"
+    "prettier": "^3.0.1"
   },
   "peerDependencies": {
     "axios": "^0",
@@ -48,7 +48,7 @@
     "@types/handlebars-helpers": "^0.5.2",
     "@types/jest": "^27.5.0",
     "@types/js-yaml": "^4.0.5",
-    "@types/node": "^20.4.5",
+    "@types/node": "^20.4.6",
     "@types/prettier": "^3.0.0",
     "@types/semantic-release": "^20.0.1",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
