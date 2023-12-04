@@ -57,7 +57,7 @@
     "depcheck": "^1.4.7",
     "eslint": "^8.55.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
     "husky": "^8.0.3",
     "jest": "^26.0.1",
     "lint-staged": "^15.2.0",
