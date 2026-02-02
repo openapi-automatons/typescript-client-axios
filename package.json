@@ -36,7 +36,7 @@
     "openapi-automatons": "^1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20.3.1",
+    "@commitlint/cli": "^20.4.0",
     "@commitlint/config-conventional": "^20.3.1",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
@@ -48,7 +48,7 @@
     "@types/handlebars-helpers": "^0.5.6",
     "@types/jest": "^30.0.0",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^25.1.0",
+    "@types/node": "^25.2.0",
     "@types/prettier": "^3.0.0",
     "@types/semantic-release": "^21.1.0",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
