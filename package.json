@@ -35,8 +35,8 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@automatons/parser": "^0.0.263",
-    "@automatons/tools": "^1.0.218",
+    "@automatons/parser": "^1.0.0",
+    "@automatons/tools": "^2.0.0",
     "glob": "^13.0.6",
     "handlebars": "^4.7.9",
     "handlebars-helpers": "^0.10.0",
@@ -45,7 +45,7 @@
   "peerDependencies": {
     "axios": "^0 || ^1",
     "object-to-formdata": "^4",
-    "openapi-automatons": "^1"
+    "openapi-automatons": "^2"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.0.2",
