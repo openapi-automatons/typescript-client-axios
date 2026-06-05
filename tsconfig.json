@@ -23,5 +23,5 @@
     "outDir": "dist"
   },
   "include": ["src"],
-  "exclude": ["dist", "tmp"]
+  "exclude": ["dist", "tmp", "src/static"]
 }

@@ -1,3 +1,0 @@
-{{#if this~}}
-	server: {{#each this}}{{name}}Server{{#unless @last}} | {{/unless}}{{/each}}{{#and (lengthEqual this 1) (isEmpty this/0/values)}} =  { name: '{{this/0/name}}'{{#if this/0/values}}, values: { {{#each this/0/values}}{{name}}: '{{defaultValue}}',{{/each}} } {{/if}} }{{/and}},
-{{~/if}}
