@@ -1,5 +1,5 @@
 import {AllOfSchema} from "@automatons/parser";
-import {readFile} from "fs-extra";
+import {readFile} from "node:fs/promises";
 import path from "path";
 import paths from "../../../paths";
 import {compile} from "handlebars";

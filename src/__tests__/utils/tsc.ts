@@ -1,5 +1,5 @@
-import {exec} from "child_process";
-import {writeFileSync} from "fs";
+import {exec} from "node:child_process";
+import {writeFileSync} from "node:fs";
 
 export const tsc = () => {
   writeFileSync('tmp/tsconfig.json', JSON.stringify(tsconfig), {encoding: 'utf-8'});
@@ -20,6 +20,7 @@ const tsconfig = {
   compilerOptions: {
     module: "commonjs",
     moduleResolution: "node",
+    ignoreDeprecations: "6.0",
     target: "es2019",
     strict: true,
     noImplicitAny: true,
@@ -35,6 +36,7 @@ const tsconfig = {
     noFallthroughCasesInSwitch: true,
     esModuleInterop: true,
     forceConsistentCasingInFileNames: true,
+    types: ["node"],
     noEmit: true
   },
   exclude: [

@@ -1,9 +1,9 @@
-import {readFile} from "fs-extra";
+import {readFile} from "node:fs/promises";
 import {glob} from 'glob';
-import Handlebars, {registerPartial} from "handlebars";
+import Handlebars from "handlebars";
 import paths from "../paths";
 
-const partial = registerPartial.bind(Handlebars);
+const partial = Handlebars.registerPartial.bind(Handlebars);
 
 const convertName = (match: string) =>
   match.replace(`${paths.templates}/`, '')
@@ -11,10 +11,7 @@ const convertName = (match: string) =>
     .replace('.hbs', '');
 
 export const register = () =>
-  new Promise<string[]>((resolve, reject) =>
-    glob('/**/partials/**/*.hbs',
-      {root: paths.templates},
-      (err, matches) => err ? reject(err) : resolve(matches)))
+  glob('**/partials/**/*.hbs', {cwd: paths.templates, absolute: true})
     .then(matches => matches.map<{ name: string, path: string }>(match =>
       ({name: convertName(match), path: match})))
     .then(files => Promise.all(
