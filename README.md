@@ -8,6 +8,8 @@
 This is generator.
 Only use openapi-automatons.
 
+Since v2 this package is **ESM-only** and requires **Node.js >= 22**.
+
 ## How can I use @automatons/typescript-client-axios?
 This library is designed to be used by [openapi-automatons](https://github.com/openapi-automatons/openapi-automatons).
 Please read the [readme](https://github.com/openapi-automatons/openapi-automatons/blob/main/README.md) of [openapi-automatons](https://github.com/openapi-automatons/openapi-automatons) for how to use it.
