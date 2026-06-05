@@ -4,3 +4,4 @@ coverage
 src/__tests__/test
 result.json
 tmp
+.idea/
