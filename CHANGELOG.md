@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.1.0...v2.2.0) (2026-06-05)
+
+
+### Features
+
+* render anyOf and nullable unions ([#1234](https://github.com/openapi-automatons/typescript-client-axios/issues/1234)) ([9222bae](https://github.com/openapi-automatons/typescript-client-axios/commit/9222bae6ebc550b2051e4cb23bde25c14fdebc57))
+
 # [2.1.0](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.0.2...v2.1.0) (2026-06-05)
 
 
