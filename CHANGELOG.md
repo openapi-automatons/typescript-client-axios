@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.0.2...v2.1.0) (2026-06-05)
+
+
+### Features
+
+* generate the client with a ts-morph AST codegen engine ([e6cb696](https://github.com/openapi-automatons/typescript-client-axios/commit/e6cb696204589edf1b89c3f2dbbadcbdf3cc3328))
+
 ## [2.0.2](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.0.1...v2.0.2) (2026-06-05)
 
 
