@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.0.1...v2.0.2) (2026-06-05)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @eslint/js from 9.39.4 to 10.0.1 ([#1231](https://github.com/openapi-automatons/typescript-client-axios/issues/1231)) ([c50075d](https://github.com/openapi-automatons/typescript-client-axios/commit/c50075deaaf5551edf422f8a7a94129217abedc4))
+
 ## [2.0.1](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.0.0...v2.0.1) (2026-06-05)
 
 
