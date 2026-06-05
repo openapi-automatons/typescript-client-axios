@@ -1,4 +1,4 @@
-import {readFile} from "fs-extra";
+import {readFile} from "node:fs/promises";
 import {compile} from "handlebars";
 import path from "path";
 import paths from "../../../paths";

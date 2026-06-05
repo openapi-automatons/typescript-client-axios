@@ -1,6 +1,6 @@
-import {readdirSync, readFileSync} from "fs";
-import {basename} from "path";
-import generatorTypescriptAxiosClient from '../src'
+import {readdirSync, readFileSync} from "node:fs";
+import {basename} from "node:path";
+import generatorTypescriptAxiosClient from '../src/index.ts'
 
 const openapiDir = 'test/openapis/';
 const outputDir = 'test/generates/';

@@ -1,11 +1,10 @@
 import {Openapi} from '@automatons/tools';
-import {remove} from "fs-extra";
+import {rm} from "node:fs/promises";
 import {join} from "path";
 import {generate} from "../../generator";
 import paths from "../../paths";
 import {expectFormat} from "../expects/expectFormat";
 
-jest.setTimeout(50000);
 const outDir = join(paths.tmp, 'cookie');
 
 it('should generate with cookie', async () => {
@@ -15,7 +14,7 @@ it('should generate with cookie', async () => {
 });
 
 beforeEach(async () => {
-  await remove(outDir);
+  await rm(outDir, {recursive: true, force: true});
 });
 
 const openapi: Openapi = {
