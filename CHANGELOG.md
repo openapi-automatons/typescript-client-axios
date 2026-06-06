@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.2.0...v2.3.0) (2026-06-06)
+
+
+### Features
+
+* render OpenAPI 3.2 query/additionalOperations and querystring ([#1235](https://github.com/openapi-automatons/typescript-client-axios/issues/1235)) ([35f2672](https://github.com/openapi-automatons/typescript-client-axios/commit/35f2672bc9f4032d8627c0f3180a203b19b29152))
+
 # [2.2.0](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.1.0...v2.2.0) (2026-06-05)
 
 
