@@ -5,10 +5,26 @@
 [![npm downloads](https://img.shields.io/npm/dw/@automatons/typescript-client-axios)](https://www.npmjs.com/package/@automatons/typescript-client-axios)
 
 ## What is @automatons/typescript-client-axios
-This is generator.
-Only use openapi-automatons.
+This is the [axios](https://axios-http.com/) client generator for openapi-automatons.
+Only use it via openapi-automatons.
 
-Since v2 this package is **ESM-only** and requires **Node.js >= 22**.
+Since v2 this package is **ESM-only** and requires **Node.js >= 22**. `axios` is a peer dependency.
+
+Each generated operation returns a `Promise<AxiosResponse<T>>`, so consumers can write
+`const { data } = await api.xxx()`. Non-2xx responses reject (axios default).
+
+## Generated client
+```ts
+import axios from "axios";
+import { PetsApi } from "./clients";
+
+const api = new PetsApi({
+  axios, // optional: a custom axios instance
+  security: { bearerAuth: () => getToken() }, // auth for the document's security schemes
+});
+
+const { data } = await api.showPetById("1");
+```
 
 ## How can I use @automatons/typescript-client-axios?
 This library is designed to be used by [openapi-automatons](https://github.com/openapi-automatons/openapi-automatons).
