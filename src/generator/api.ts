@@ -5,7 +5,7 @@ import {schemaToType} from "./schema";
 import {docs} from "./comment";
 import {extractApiMeta} from "../extractors/api";
 
-const isAffect = (path: Path): path is AffectPath => ["post", "put", "patch"].includes(path.method);
+const isAffect = (path: Path): path is AffectPath => "forms" in path;
 const formsOf = (path: Path): NonNullable<AffectPath["forms"]> => (isAffect(path) && path.forms ? path.forms : []);
 
 type Entry = {name: string; required?: boolean; schema: Schema};
@@ -38,6 +38,10 @@ const queriesParam = (path: Path): OptionalKind<ParameterDeclarationStructure> |
   path.queries?.length
     ? {name: "queries", type: objectType(path.queries), ...withInit(allOptional(path.queries) ? "{}" : undefined)}
     : undefined;
+const queryStringParam = (path: Path): OptionalKind<ParameterDeclarationStructure> | undefined =>
+  path.querystring
+    ? {name: "querystring", type: schemaToType(path.querystring), hasQuestionToken: true}
+    : undefined;
 const cookiesParam = (path: Path): OptionalKind<ParameterDeclarationStructure> | undefined =>
   path.cookies?.length
     ? {name: "cookies", type: objectType(path.cookies), ...withInit(allOptional(path.cookies) ? "{}" : undefined)}
@@ -64,6 +68,7 @@ const requestParams = (path: Path): OptionalKind<ParameterDeclarationStructure>[
     ...(path.parameters ?? []).map((p) => ({name: p.name, type: schemaToType(p.schema)})),
     forms.length ? {name: "form", type: forms.map((form) => schemaToType(form.schema)).join(" | ")} : undefined,
     queriesParam(path),
+    queryStringParam(path),
     cookiesParam(path),
     headersParam(path),
     serverParam(path),
@@ -71,16 +76,19 @@ const requestParams = (path: Path): OptionalKind<ParameterDeclarationStructure>[
   ]);
 };
 const configParams = (path: Path): OptionalKind<ParameterDeclarationStructure>[] =>
-  compact([queriesParam(path), cookiesParam(path), headersParam(path), serverParam(path), configParam()]);
+  compact([queriesParam(path), queryStringParam(path), cookiesParam(path), headersParam(path), serverParam(path), configParam()]);
 
 const requestVariables = (path: Path): string =>
   compact([
     path.queries?.length ? "queries" : undefined,
+    path.querystring ? "querystring" : undefined,
     path.cookies?.length ? "cookies" : undefined,
     "headers",
     path.servers?.length ? "server" : undefined,
     "config",
   ]).join(", ");
+
+const AXIOS_METHODS = ["get", "post", "put", "patch", "delete", "head", "options"];
 
 const requestBody = (api: Api, path: Path): string[] => {
   const forms = formsOf(path);
@@ -88,11 +96,14 @@ const requestBody = (api: Api, path: Path): string[] => {
     .map((p) => `.replace("{${p.name}}", template('${p.name}', ${p.name}, '${p.style ?? "simple"}', ${p.explode ?? false}))`)
     .join("");
   void api;
+  const call = AXIOS_METHODS.includes(path.method)
+    ? `return this.axios.${path.method}(path, ${forms.length ? "_form, " : ""}requestConfig);`
+    : `return this.axios.request({ ...requestConfig, method: "${path.method.toUpperCase()}", url: path${forms.length ? ", data: _form" : ""} });`;
   return compact([
     `const path = "${path.path}"${replaces};`,
     `const requestConfig = await this.#config.${path.name}(${requestVariables(path)});`,
     forms.length ? "const _form = formData(headers['Content-Type'], form);" : undefined,
-    `return this.axios.${path.method}(path, ${forms.length ? "_form, " : ""}requestConfig);`,
+    call,
   ]);
 };
 
@@ -101,6 +112,7 @@ const configBody = (api: Api, path: Path): string[] => {
   const params = compact([
     "...config?.params,",
     ...(path.queries ?? []).map((q) => `...query("${q.name}", queries.${q.name}, '${q.style ?? "form"}', ${q.explode ?? false}),`),
+    path.querystring ? "...querystring," : undefined,
     ...securities.map((s) => (s.type === "apiKey" && s.in === "query" ? `${s.key}: await this.security("${s.name}"),` : undefined)),
   ]);
   const cookieStatements = compact<string>([
