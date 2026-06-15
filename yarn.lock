@@ -43,15 +43,15 @@
     "@jridgewell/gen-mapping" "^0.3.5"
     "@jridgewell/trace-mapping" "^0.3.24"
 
-"@automatons/parser@^1.2.7":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-1.2.7.tgz#e65da7c5d25873a1a565c3933e35eb4624ba7d9e"
-  integrity sha512-xglICPrMqxQ0J2Ic638q0/2r1fNLg14Ne5FbuEgdjM9XfDLMdfdneNYLSLLwzlmvSeuiKp2g2TnNIS0o/sWqUA==
+"@automatons/parser@^1.2.8":
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/@automatons/parser/-/parser-1.2.8.tgz#567890ea8c5b8bbdb35bd9b8c7f0986bc3d884cd"
+  integrity sha512-/dpHS+dXfYR6zbB7SnZdsCs6hLcFTWBcY52Dyci7b4h7z4b4OMiiTEdorps2sgWYNLoeWc+O4JB2smYc0vElqg==
   dependencies:
-    "@automatons/tools" "^2.2.3"
+    "@automatons/tools" "^2.2.4"
     change-case "^5.4.4"
 
-"@automatons/tools@^2.2.3", "@automatons/tools@^2.2.4":
+"@automatons/tools@^2.2.4":
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-2.2.4.tgz#3a2d19de833292bfd2924046d8069edd03c8e189"
   integrity sha512-PZwVyMYuV5ZK8PXINNZfizNlDhnKHy4Uqh8A9o3ruSxkk76rTLr44NvZaKJiDSSy/74k3Pfu7BPN3hKogW8qzw==
@@ -1950,9 +1950,9 @@ axios-mock-adapter@^2.1.0:
     is-buffer "^2.0.5"
 
 axios@^1:
-  version "1.17.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.17.0.tgz#ae5a1164a4f719942cd73c67e6a3f62d3ccb8f2b"
-  integrity sha512-J8SwNxprqqpbfenehxWYXE7CW+wM1BB4w3+N+g+/Wx40xM4rsLrfPmHHxSWIxJLYDgSY/HqlFPIYb2/S3rxafw==
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.18.0.tgz#8a7f8854af280fcaae063272df2ed9f3837d2398"
+  integrity sha512-E32NzpYKp++W7XRe52rHiXV2ehxmh3wbdgO7MHeFM+vqxLBYHzt0ElkiImtOBxtOmyp0yoC8C6uESVV84Y2/hw==
   dependencies:
     follow-redirects "^1.16.0"
     form-data "^4.0.5"
@@ -3400,15 +3400,7 @@ https-proxy-agent@^5.0.1:
     agent-base "6"
     debug "4"
 
-https-proxy-agent@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-7.0.0.tgz#75cb70d04811685667183b31ab158d006750418a"
-  integrity sha512-0euwPCRyAPSgGdzD1IVN9nJYHtBhJwb6XPfbpQcYbPCwrBidX6GzxmchnaF4sfF/jPb74Ojx5g4yTg3sixlyPw==
-  dependencies:
-    agent-base "^7.0.2"
-    debug "4"
-
-https-proxy-agent@^7.0.1:
+https-proxy-agent@^7.0.0, https-proxy-agent@^7.0.1:
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-7.0.2.tgz#e2645b846b90e96c6e6f347fb5b2e41f1590b09b"
   integrity sha512-NmLNjm6ucYwtcUmL7JQC1ZQ57LmHP4lT15FQ8D61nak1rO6DH+fz5qNK2Ap5UN4ZapYICE3/0KodcLYSPsPbaA==
