@@ -1,3 +1,10 @@
+## [2.3.18](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.3.17...v2.3.18) (2026-06-20)
+
+
+### Bug Fixes
+
+* **deps:** bump postcss from 8.4.5 to 8.5.15 ([#1262](https://github.com/openapi-automatons/typescript-client-axios/issues/1262)) ([37b908f](https://github.com/openapi-automatons/typescript-client-axios/commit/37b908fef06e1031d37ddea0cbbd339f4cfb46b6))
+
 ## [2.3.17](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.3.16...v2.3.17) (2026-06-20)
 
 
