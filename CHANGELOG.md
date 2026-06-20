@@ -1,3 +1,10 @@
+## [2.3.17](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.3.16...v2.3.17) (2026-06-20)
+
+
+### Bug Fixes
+
+* **deps:** bump lodash-es from 4.17.21 to 4.18.1 ([#1261](https://github.com/openapi-automatons/typescript-client-axios/issues/1261)) ([e5dcd11](https://github.com/openapi-automatons/typescript-client-axios/commit/e5dcd118d4bb5763232854b2e0a2a6f84a493810))
+
 ## [2.3.16](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.3.15...v2.3.16) (2026-06-20)
 
 
