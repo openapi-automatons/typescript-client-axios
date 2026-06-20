@@ -1,3 +1,10 @@
+## [2.3.19](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.3.18...v2.3.19) (2026-06-20)
+
+
+### Bug Fixes
+
+* **deps:** bump form-data from 4.0.5 to 4.0.6 ([#1263](https://github.com/openapi-automatons/typescript-client-axios/issues/1263)) ([546dcbf](https://github.com/openapi-automatons/typescript-client-axios/commit/546dcbfc29187de120c4cdc5d23e793d5758f4c8))
+
 ## [2.3.18](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.3.17...v2.3.18) (2026-06-20)
 
 
