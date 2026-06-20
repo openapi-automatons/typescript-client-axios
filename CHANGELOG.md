@@ -1,3 +1,10 @@
+## [2.3.16](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.3.15...v2.3.16) (2026-06-20)
+
+
+### Bug Fixes
+
+* **deps:** bump tar from 7.4.3 to 7.5.16 ([#1260](https://github.com/openapi-automatons/typescript-client-axios/issues/1260)) ([41fffa8](https://github.com/openapi-automatons/typescript-client-axios/commit/41fffa80b5e544dcd1b8eedc3236ecdc33d1eb14))
+
 ## [2.3.15](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.3.14...v2.3.15) (2026-06-19)
 
 
