@@ -1,3 +1,10 @@
+## [2.3.32](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.3.31...v2.3.32) (2026-06-29)
+
+
+### Bug Fixes
+
+* **deps:** bump @sigstore/core from 3.0.0 to 3.2.1 ([#1284](https://github.com/openapi-automatons/typescript-client-axios/issues/1284)) ([606cd02](https://github.com/openapi-automatons/typescript-client-axios/commit/606cd0272bb2e54739c18877f68feeb62ebff330))
+
 ## [2.3.31](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.3.30...v2.3.31) (2026-06-29)
 
 
