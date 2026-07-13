@@ -1,3 +1,13 @@
+## [2.3.45](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.3.44...v2.3.45) (2026-07-13)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump eslint from 10.6.0 to 10.7.0 ([#1313](https://github.com/openapi-automatons/typescript-client-axios/issues/1313)) ([9877d3b](https://github.com/openapi-automatons/typescript-client-axios/commit/9877d3bf3d8115b2173f49d0d0d26da5e2d33c30))
+* **deps-dev:** bump object-to-formdata from 4.5.1 to 5.0.0 ([#1311](https://github.com/openapi-automatons/typescript-client-axios/issues/1311)) ([97dd67d](https://github.com/openapi-automatons/typescript-client-axios/commit/97dd67d8b3da78ec64818381ec0dfc9d6b136142))
+* **deps-dev:** bump semantic-release from 25.0.5 to 25.0.7 ([#1312](https://github.com/openapi-automatons/typescript-client-axios/issues/1312)) ([8f4fd0b](https://github.com/openapi-automatons/typescript-client-axios/commit/8f4fd0bdb23addebd7c314c3f26f0a79922aa184))
+* **deps-dev:** bump tsx from 4.23.0 to 4.23.1 ([#1310](https://github.com/openapi-automatons/typescript-client-axios/issues/1310)) ([702459b](https://github.com/openapi-automatons/typescript-client-axios/commit/702459bb4d2b59c90b465c67ea9601f22d2450c5))
+
 ## [2.3.44](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.3.43...v2.3.44) (2026-07-10)
 
 
