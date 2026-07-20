@@ -1,3 +1,11 @@
+## [2.3.49](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.48...v2.3.49) (2026-07-20)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump lint-staged from 17.0.8 to 17.1.0 ([#1318](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1318)) ([c9075dc](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/c9075dc78b8fe9c26599b51cbac0298f28318b5b))
+* **deps-dev:** bump semantic-release from 25.0.7 to 25.0.8 ([#1319](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1319)) ([166fa5d](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/166fa5dd0425b1ccd33f7f9612d0197839fe3627))
+
 ## [2.3.48](https://github.com/openapi-automatons/typescript-client-axios/compare/v2.3.47...v2.3.48) (2026-07-15)
 
 
