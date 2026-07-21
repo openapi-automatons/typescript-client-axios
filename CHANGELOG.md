@@ -1,3 +1,13 @@
+## [2.3.51](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.50...v2.3.51) (2026-07-21)
+
+
+### Bug Fixes
+
+* **deps:** bump @[secure]/parser from 1.2.40 to 1.2.42 ([#1321](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1321)) ([4ace32f](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/4ace32fb609bdfce8b827f3fac20857af3b9c279))
+* **deps:** bump @[secure]/tools from 2.2.21 to 2.2.23 ([#1322](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1322)) ([302cb64](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/302cb6401ff5d29ed5c5ba3b1405fa9c32633b59))
+* **deps:** bump prettier from 3.9.5 to 3.9.6 ([#1323](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1323)) ([6e59014](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/6e59014200c3a59e608eba53a4592f76880b4b0e))
+* **deps:** bump tar from 7.5.16 to 7.5.20 ([#1324](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1324)) ([fafd1ee](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/fafd1ee7c17ed81c73a776d3f485c2c12084dd70))
+
 ## [2.3.50](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.49...v2.3.50) (2026-07-21)
 
 
