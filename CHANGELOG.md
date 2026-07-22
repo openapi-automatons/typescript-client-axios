@@ -1,3 +1,11 @@
+## [2.3.52](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.51...v2.3.52) (2026-07-22)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @semantic-release/changelog from 6.0.3 to 7.0.0 ([#1325](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1325)) ([7668869](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/7668869020f50ee43c12fbfcfda034b713031af0))
+* **deps-dev:** bump lint-staged from 17.1.0 to 17.1.1 ([#1326](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1326)) ([3a2dadc](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/3a2dadcfedbbc864ebe2399588acb171a930150c))
+
 ## [2.3.51](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.50...v2.3.51) (2026-07-21)
 
 
