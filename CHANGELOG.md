@@ -1,3 +1,13 @@
+## [2.3.56](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.55...v2.3.56) (2026-07-24)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @semantic-release/git from 11.0.0 to 11.0.1 ([#1334](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1334)) ([d675195](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/d6751952be76b95fa88f6bb1aaaa6d1394cdb64a))
+* **deps-dev:** bump lint-staged from 17.1.1 to 17.2.0 ([#1332](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1332)) ([e2aa0b4](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/e2aa0b4e0df44a633970c01cdfa9a62f9a8ecc89))
+* **deps:** bump @[secure]/parser from 1.2.45 to 1.2.47 ([#1333](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1333)) ([e100c4b](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/e100c4bfdcaf998464bf49c585ca961839c5b5b4))
+* **deps:** bump @[secure]/tools from 2.2.27 to 2.2.28 ([#1335](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1335)) ([e901793](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/e901793267be65f97da206eaab762240cfe76a1f))
+
 ## [2.3.55](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.54...v2.3.55) (2026-07-23)
 
 
