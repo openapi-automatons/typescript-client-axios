@@ -1,3 +1,13 @@
+## [2.3.57](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.56...v2.3.57) (2026-07-27)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump eslint from 10.7.0 to 10.8.0 ([#1338](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1338)) ([52203b9](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/52203b9a5f71d2f05a9715b16a1d0fbbc0fefa56))
+* **deps:** bump @[secure]/parser from 1.2.47 to 1.2.50 ([#1336](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1336)) ([37a6c10](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/37a6c1037d099f9177bd9dd626b26cac369fc75b))
+* **deps:** bump @[secure]/tools from 2.2.28 to 2.2.33 ([#1337](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1337)) ([c1640b9](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/c1640b9e3d1cfd5b990220da490c1d65e33e1583))
+* **deps:** bump postcss from 8.5.15 to 8.5.23 ([#1339](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1339)) ([234b997](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/234b9974017960da84029ebe5c2c3e89df38696d))
+
 ## [2.3.56](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.55...v2.3.56) (2026-07-24)
 
 
