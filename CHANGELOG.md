@@ -1,3 +1,11 @@
+## [2.3.58](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.57...v2.3.58) (2026-07-28)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @types/node from 26.1.1 to 26.1.2 ([#1341](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1341)) ([02b05c5](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/02b05c5577f6f851bdafec3261f162d1a21a533e))
+* **deps:** bump @[secure]/parser from 1.2.50 to 1.2.51 ([#1340](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1340)) ([de5bf16](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/de5bf1609576cc26e3f66f9075f6ecf82fa091f3))
+
 ## [2.3.57](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.56...v2.3.57) (2026-07-27)
 
 
