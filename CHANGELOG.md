@@ -1,3 +1,10 @@
+## [2.3.64](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.63...v2.3.64) (2026-08-04)
+
+
+### Bug Fixes
+
+* **deps:** bump undici from 6.27.0 to 6.28.0 ([#1348](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1348)) ([b8ce268](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/b8ce268f8a974e1fef093f5c1724a92e5b79d836))
+
 ## [2.3.63](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.62...v2.3.63) (2026-08-04)
 
 
