@@ -1,3 +1,10 @@
+## [2.3.65](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.64...v2.3.65) (2026-08-06)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump tsx from 4.23.1 to 4.23.5 ([#1349](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1349)) ([292e951](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/292e95130c5452e11b897596c245f8b29b573ab2))
+
 ## [2.3.64](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.63...v2.3.64) (2026-08-04)
 
 
