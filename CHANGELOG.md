@@ -1,3 +1,11 @@
+## [2.3.76](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.75...v2.3.76) (2026-08-25)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump eslint from 10.8.1 to 10.9.0 ([#1371](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1371)) ([0e06f62](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/0e06f621425c68db03d79f6c22cf684ed5037d39))
+* **deps:** bump @[secure]/parser from 1.2.63 to 1.2.64 ([#1372](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1372)) ([d89f5cf](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/d89f5cf4e0e18695fa9d2774508d241c616895ba))
+
 ## [2.3.75](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.74...v2.3.75) (2026-08-21)
 
 
