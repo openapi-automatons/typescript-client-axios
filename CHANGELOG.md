@@ -1,3 +1,10 @@
+## [2.3.80](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.79...v2.3.80) (2026-09-01)
+
+
+### Bug Fixes
+
+* **deps:** bump postcss-selector-parser from 7.1.0 to 7.1.5 ([#1382](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1382)) ([e56b7c2](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/e56b7c2f27de026d5f01740aae4ac33c8eb5af10))
+
 ## [2.3.79](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.78...v2.3.79) (2026-09-01)
 
 
