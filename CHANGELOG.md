@@ -1,3 +1,11 @@
+## [2.3.83](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.82...v2.3.83) (2026-10-30)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump [secure] from 1.20.0 to 1.21.0 ([#1430](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1430)) ([782caf9](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/782caf9e8247ccf8dff80f9744b510df2d29bbca))
+* **deps-dev:** bump typescript-eslint from 8.72.0 to 8.72.1 ([#1429](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1429)) ([5f6fb3b](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/5f6fb3b0ffa1d7b80bdd41208e8200fa0c8f48e3))
+
 ## [2.3.82](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.81...v2.3.82) (2026-10-30)
 
 
