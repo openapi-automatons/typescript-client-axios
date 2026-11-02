@@ -1,3 +1,12 @@
+## [2.3.85](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.84...v2.3.85) (2026-11-02)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @types/node from 26.6.5 to 26.6.6 ([#1432](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1432)) ([8c6618b](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/8c6618bc916e8571d1ff8630f85d8a8ce393499e))
+* **deps:** bump brace-expansion from 1.1.11 to 1.1.21 ([#1435](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1435)) ([2d95d03](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/2d95d03033bbf19439838042c85fc851518ea0e7))
+* **deps:** bump follow-redirects from 1.16.1 to 1.16.2 ([#1434](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1434)) ([c3486f3](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/c3486f3a28f49e632d26c2f89726b21007a956de))
+
 ## [2.3.84](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.83...v2.3.84) (2026-11-02)
 
 
