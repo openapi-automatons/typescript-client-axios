@@ -1,3 +1,14 @@
+## [2.3.92](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.91...v2.3.92) (2026-11-13)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump [secure] from 1.21.0 to 1.21.1 ([#1445](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1445)) ([98fddf6](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/98fddf6602f6bc7ed17e88be5812d21f53c51fe1))
+* **deps-dev:** bump typescript-eslint from 8.72.1 to 8.72.2 ([#1444](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1444)) ([4a94075](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/4a94075a1bcd50a851578b40b44dd1e473849e27))
+* **deps-dev:** bump vite from 8.3.6 to 8.3.7 ([#1446](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1446)) ([1e6a91c](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/1e6a91c77117561dc6eb5388c34e10e50821e801))
+* **deps:** bump js-yaml from 3.14.1 to 3.15.2 ([#1447](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1447)) ([10408ea](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/10408ea3c34810297dbcd7527666368645f04ab0))
+* **deps:** bump picomatch from 2.3.1 to 2.3.2 ([#1448](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1448)) ([28aeb36](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/28aeb36b3c28e3bfffd96a1b90d690c7f398965b))
+
 ## [2.3.91](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.90...v2.3.91) (2026-11-13)
 
 
