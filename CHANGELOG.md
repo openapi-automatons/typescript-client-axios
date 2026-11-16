@@ -1,3 +1,10 @@
+## [2.3.94](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.93...v2.3.94) (2026-11-16)
+
+
+### Bug Fixes
+
+* **deps:** bump prettier from 3.9.10 to 3.10.1 ([#1452](https://github.com/[secure]-[secure]/typescript-client-[secure]/issues/1452)) ([6fc29b0](https://github.com/[secure]-[secure]/typescript-client-[secure]/commit/6fc29b07b92e014d83f0a1a9a9acf6ff2baf3ce9))
+
 ## [2.3.93](https://github.com/[secure]-[secure]/typescript-client-[secure]/compare/v2.3.92...v2.3.93) (2026-11-16)
 
 
